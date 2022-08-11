@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h2 id="answer"></h2>
+        <div class="start-container">
+          <button class="btn-start">click to start</button>
+        </div>
+        <br>
+        <div class="button-container top">
+          <button class="btn left 0">-</button>
+          <button class="btn mid 0">-</button>
+          <button class="btn right 0">-</button>
+        </div>
+        <div class="button-container middle">
+          <button class="btn left 1">-</button>
+          <button class="btn mid 1">-</button>
+          <button class="btn right 1">-</button>
+        </div>
+        <div class="button-container bottom">
+          <button class="btn left 2">-</button>
+          <button class="btn mid 2">-</button>
+          <button class="btn right 2">-</button>
+        </div>
+        <div class="end-game">
+          <h4 id="end-message">
+            Congratulations you won! You had _ tries left.
+          </h4>
+        </div>
+      </div>
+    </main>
+    <!-- javascript -->
+    <script src="TicTacToe.js"></script>
+  </body>
+</html>
