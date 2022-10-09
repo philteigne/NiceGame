@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hangman</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="Hangman_styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="game-selection">
+          <a href="../index/index.html"><button class="btn-return"></button></a>
+        </div>
+        <br>
+        <img src="./Graphics/Hangman_Graphic-1.svg" alt="" id="head-image">
+        <h2 id="answer"></h2>
+        <div class="start-container">
+          <button class="btn-start">click to start</button>
+        </div>
+        <br>
+        <div class="button-container">
+          <button class="btn a">a</button>
+          <button class="btn b">b</button>
+          <button class="btn c">c</button>
+          <button class="btn d">d</button>
+        </div>
+        <div class="button-container">
+          <button class="btn e">e</button>
+          <button class="btn f">f</button>
+          <button class="btn g">g</button>
+          <button class="btn h">h</button>
+        </div>
+        <div class="button-container">
+          <button class="btn i">i</button>
+          <button class="btn j">j</button>
+          <button class="btn k">k</button>
+          <button class="btn l">l</button>
+        </div>
+        <div class="button-container">
+          <button class="btn m">m</button>
+          <button class="btn n">n</button>
+          <button class="btn o">o</button>
+          <button class="btn p">p</button>
+        </div>
+        <div class="button-container">
+          <button class="btn q">q</button>
+          <button class="btn r">r</button>
+          <button class="btn s">s</button>
+          <button class="btn t">t</button>
+        </div>
+        <div class="button-container">
+          <button class="btn u">u</button>
+          <button class="btn v">v</button>
+          <button class="btn w">w</button>
+          <button class="btn x">x</button>
+        </div>
+        <div class="button-container">  
+          <button class="btn y">y</button>
+          <button class="btn z">z</button>          
+        </div>
+        <div class="end-game">
+          <h4 id="end-message">
+            Congratulations you won! You had _ tries left.
+          </h4>
+        </div>
+      </div>
+    </main>
+    <!-- javascript -->
+    <script src="Hangman.js"></script>
+  </body>
+</html>

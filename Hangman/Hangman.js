@@ -39,7 +39,6 @@ startBtn.addEventListener('click', function(){
 btns.forEach(function (btn) {
     btn.addEventListener('click', function(e){
         const letter = e.currentTarget.classList;
-        e.currentTarget.style.opacity = "1";
         if (answerKey.includes(letter[1]) && e.currentTarget.style.opacity > 0 && count < 8){
             for (let i = answerKey.length; i > -1; i--){
                 if (answerKey[i] == letter[1]){
